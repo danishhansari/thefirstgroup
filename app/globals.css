@@ -127,3 +127,8 @@
 br::selection {
   background: none;
 }
+
+*::selection {
+  color: white;
+  background: black;
+}
