@@ -14,10 +14,10 @@ export const Nav = () => {
           />
         </div>
         <ul className="flex items-center gap-6 text-[#818181] text-sm">
-          <li>Become a owner</li>
-          <li>Our Properties</li>
-          <li>Locations</li>
-          <li>About Us</li>
+          <li className="cursor-pointer hover:text-gray-600">Become a owner</li>
+          <li className="cursor-pointer hover:text-gray-600">Our Properties</li>
+          <li className="cursor-pointer hover:text-gray-600">Locations</li>
+          <li className="cursor-pointer hover:text-gray-600">About Us</li>
         </ul>
         <div>
           <Button
