@@ -2,7 +2,7 @@ export const Hero = () => {
   return (
     <>
       <div className="w-full h-[calc(100vh-13vh)] px-6 relative">
-        <div className="absolute z-10 w-[96.5%] h-[calc(100vh-13vh)] bg-linear-to-b from-black/30 via-gray-300/5 to-black/75 rounded-2xl"></div>
+        <div className="absolute z-10 w-[96.5%] h-[calc(100vh-13vh)] bg-linear-to-b from-black/20 via-gray-300/10 to-black/95 rounded-2xl"></div>
         <img
           src={"/hero.webp"}
           alt="Hero Imag"
