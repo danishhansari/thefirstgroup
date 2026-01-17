@@ -13,7 +13,7 @@ export const Nav = () => {
             alt="fkjd"
           />
         </div>
-        <ul className="flex items-center gap-6 text-[#818181] text-sm">
+        <ul className="items-center gap-6 text-[#818181] text-sm hidden md:flex">
           <li className="cursor-pointer hover:text-gray-600">Become a owner</li>
           <li className="cursor-pointer hover:text-gray-600">Our Properties</li>
           <li className="cursor-pointer hover:text-gray-600">Locations</li>
