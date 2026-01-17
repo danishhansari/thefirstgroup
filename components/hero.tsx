@@ -6,7 +6,7 @@ export const Hero = () => {
         <img
           src={"/hero.webp"}
           alt="Hero Imag"
-          className="w-full h-full rounded-2xl"
+          className="w-full h-full rounded-2xl select-none"
         />
         <div className="absolute bottom-16 left-16 text-white z-20">
           <h1 className="text-white text-5xl font-medium">
